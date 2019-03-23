@@ -12,3 +12,9 @@ print(type(pierwiastek))
 import random
 losuj = random.random()
 print(losuj)
+
+losujZlisty = random.choice([1, 2, 3, 4])
+print(losujZlisty)
+
+losujZlisty = random.choice("Janusz")
+print(losujZlisty)
