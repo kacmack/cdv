@@ -1,1 +1,34 @@
+#pierwszy plik
 print("plik")
+
+#potegowanie
+potega = 2 ** 10
+print(potega)
+
+tekst = "CDV"
+print(tekst * 2)
+
+#pobieranie danych z klawiatury
+imie = input()
+print("Twoje imię: " + imie)
+
+nazwisko = 'Nowak'
+print('Twoje dane: ' + imie + ' ' + nazwisko)
+
+dlugosc = len(nazwisko)
+print(dlugosc)
+print(type(dlugosc))
+dlugosc = str(dlugosc)
+print('Długość nazwiska: ' + dlugosc)
+
+#zadanie
+print('Podaj imie: ')
+imiee = input()
+print('Podaj wiek: ')
+wiek = input()
+print('Podaj imie: ' + imiee)
+print('Podaj wiek: ' + wiek)
+
+nazwisko = "Kowalski"
+
+pierwszyZnak = nazwisko[0]
