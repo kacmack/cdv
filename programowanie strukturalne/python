@@ -26,9 +26,39 @@ print('Podaj imie: ')
 imiee = input()
 print('Podaj wiek: ')
 wiek = input()
-print('Podaj imie: ' + imiee)
-print('Podaj wiek: ' + wiek)
+print('Twoje imie: ' + imiee)
+print('Twój wiek: ' + wiek)
 
+#inne
 nazwisko = "Kowalski"
 
 pierwszyZnak = nazwisko[0]
+print(pierwszyZnak)
+
+ostatniZnak = nazwisko[len(nazwisko)-1]
+print(ostatniZnak)
+
+ostatniZnak = nazwisko[-1]
+print(ostatniZnak)
+
+#konwersja
+x = "5"
+print(type(x))
+x = int(x)
+print(type(x))
+x = float(x)
+print(type(x))
+print(x)
+
+y = 5;
+print(type(y))
+y = y / 2
+print(type(y))
+
+nazwisko = "Kowalski"
+print(nazwisko[0])
+print(nazwisko[0:3])
+print(nazwisko[-2])
+print(nazwisko[-2:])
+print(nazwisko[:-2])
+print(nazwisko[:-2:2])
